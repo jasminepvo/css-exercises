@@ -8,10 +8,21 @@ body {
   font-family: Besley, serif;
 }
 
+/* Added display, justify-content, padding */
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+/* Added chain class selectors */ 
+.left,.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -43,6 +54,11 @@ a {
   color: rebeccapurple;
 }
 
+/* Added display, gap, margin, padding */
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0px;  
+  padding: 0px;
 }
